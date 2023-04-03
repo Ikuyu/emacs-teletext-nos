@@ -1,7 +1,7 @@
 ;;; teletext-nos.el --- Teletext provider for the Dutch Broadcasting Foundation NOS -*- lexical-binding: t -*-
 ;;
 ;; Package requirements: Emacs 24.3, Teletext 0.1 package and Bitstream Vera Sans Mono font
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Keywords: comm help hypermedia
 ;;
 ;; This file is not part of GNU Emacs.
@@ -361,7 +361,7 @@ NETWORK must be \"NOS\"."
       (buffer-face-mode)))
   ;; load and insert page
   (teletext-nos--insert-from-json
-   (teletext-nos--get-page-json page force) ; the first time page 100 is requested
+   (teletext-nos--get-page-json page subpage force) ; the first time page 100 is requested
    page subpage))
 
 (defun teletext-nos--networks ()
