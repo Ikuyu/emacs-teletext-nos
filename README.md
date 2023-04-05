@@ -5,12 +5,12 @@ Read NOS Teletext pages in Emacs.
 
 ## Requirements
 
-* [Bitstream Vera Sans Mono font](http://legionfonts.com/fonts/bitstream-vera-sans-mono)
-* Teletext package
 * Use-package
 * Quelpa
+* [Bitstream Vera Sans Mono font](http://legionfonts.com/fonts/bitstream-vera-sans-mono)
+* Teletext package
 
-To install the Teletext package, add the line below to your Emacs config:
+To install the Teletext package add the line below to your Emacs config:
 
 ```elisp
 (use-package teletext)
@@ -18,7 +18,7 @@ To install the Teletext package, add the line below to your Emacs config:
 
 ## Installation
 
-You will also have to add the `teletext-nos` package to your Emacs config. Use Quelpa until it's also available on Melpa.
+The last step is to add the `teletext-nos` package to your Emacs config. Use Quelpa until it’s available on Melpa.
 
 ```elisp
 (use-package teletext-nos
