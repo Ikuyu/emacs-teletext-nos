@@ -7,6 +7,8 @@ Read NOS Teletext pages in Emacs.
 
 * [Bitstream Vera Sans Mono font](http://legionfonts.com/fonts/bitstream-vera-sans-mono)
 * Teletext package
+* Use-package
+* Quelpa
 
 To install the Teletext package, add the line below to your Emacs config:
 
