@@ -33,3 +33,5 @@ The last step is to add the `teletext-nos` package to your Emacs config. Use Que
 ## Usage
 
 Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on the word `NOS`.
+
+![](nos-teletekst.png)
