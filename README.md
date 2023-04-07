@@ -10,7 +10,7 @@ Read NOS Teletext pages in Emacs.
 * [Bitstream Vera Sans Mono font](http://legionfonts.com/fonts/bitstream-vera-sans-mono)
 * Teletext package
 
-To install the Teletext package add this to your Emacs config:
+To install the required Teletext package add this to your Emacs config:
 
 ```elisp
 (use-package teletext)
@@ -34,4 +34,5 @@ The last step is to add the `teletext-nos` package to your Emacs config. Use Que
 
 Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on the word `NOS`.
 
-![](nos-teletekst.png)
+<img src="nos-teletekst.png" height="300">
+
