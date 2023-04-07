@@ -30,9 +30,13 @@ The last step is to add the `teletext-nos` package to your Emacs config. Use Que
            :repo "Ikuyu/emacs-teletext-nos"))
 ```
 
-## Usage
-
-Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on the word `NOS`.
-
 <center><img src="nos-teletekst.png" height="500"></center>
 
+## Usage
+
+Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on the word `NOS` or set a key globally like this:
+
+(global-set-key (kbd "C-c e t") (lambda ()
+                                  (interactive)
+                                  (teletext)
+                                  (teletext-select-network "NOS")))
