@@ -40,6 +40,5 @@ Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on 
 (global-set-key (kbd "C-c e t") (lambda ()
                                   (interactive)
                                   (teletext)
-                                  (teletext-select-network "NOS")
-                                  (setq-local line-spacing nil))) ; temporarily reset set line-spacing
+                                  (teletext-select-network "NOS")))
 ```
