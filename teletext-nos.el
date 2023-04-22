@@ -1,6 +1,6 @@
 ;;; teletext-nos.el --- Teletext provider for the Dutch Broadcasting Foundation NOS -*- lexical-binding: t -*-
 ;;
-;; Package-Requires: ((emacs "24.3") (teletext "0.1") (Bitstream Vera Sans Mono font))
+;; Package-Requires: ((emacs "24.3") (teletext "0.1"))
 ;; Version: 0.1.2
 ;; Package-Version: 20230404.3700
 ;; Keywords: comm help hypermedia
