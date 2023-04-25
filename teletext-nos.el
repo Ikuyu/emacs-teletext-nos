@@ -194,7 +194,7 @@
 
 (defconst teletext-nos--regex
   (regexp-opt (append           ; regexp-opt takes a list of strings and produces a single regexp which matches any of them
-               (-mapcat (lambda (entity) (list (car entity))) teletext-nos--entities)
+               (seq-mapcat (lambda (entity) (list (car entity))) teletext-nos--entities)
                teletext-nos--html-tags
                teletext-nos--colors))
   "Internal regular expression to match one NOS Teletekst color or entity.")
