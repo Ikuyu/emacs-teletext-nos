@@ -33,5 +33,6 @@ Within Emacs type `M-x teletext` [ENTER]. Use the left mouse button to click on 
 (global-set-key (kbd "C-c e t") (lambda ()
                                   (interactive)
                                   (teletext)
+                                  (face-remap-add-relative 'default :foreground "#ffffff":background "#000000")
                                   (teletext-select-network "NOS")))
 ```
